@@ -17,7 +17,7 @@ export interface GameState {
   position: Position,
   playerStatus: PlayerStatus,
   obstaclesX: number[],
-  collectiblesX: number[]
+  collectablesX: number[]
   scene: Scene
 }
 
